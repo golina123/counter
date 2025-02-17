@@ -1,5 +1,4 @@
 struct parser;
-parser_create;
-parser_getword;
-parser_delete;
-
+struct parser * parser_create();
+void parser_getword(struct, const char);
+void parser_delete(struct);
