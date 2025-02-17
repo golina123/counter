@@ -1,4 +1,6 @@
+struct element;
 struct dictionary;
-void dict_create;
-void dict_delete;
+struct dictionary * dictionary_create;
+void dictionary_add_word;
+void dictionary_delete;
 void dictionary_print;
